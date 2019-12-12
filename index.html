@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <title>Spotify</title>
@@ -22,7 +23,7 @@
           <nav>
             <ul>
 
-              <li class=" items-center sidebar__nav__li sidebar__nav__li--active"><a class="items-center" href="#"><svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+              <li class="sidebar__nav__li sidebar__nav__li--active items-center"><a class="items-center" href="#"><svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M448 463.746h-149.333v-149.333h-85.334v149.333h-149.333v-315.428l192-111.746 192 110.984v316.19z" fill="currentColor" /></svg><span>Home</span></a></li>
               <li><a class="sidebar__nav__li items-center" href="#"><svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -33,25 +34,43 @@
             </ul>
           </nav>
         </div>
-        <section>
-          <h2>PLAYLIST</h2>
-          <a href="">Crea Playlist</a>
-        </section>
-        <section class="main-nav-main">
-          <ul class="playlist">
-            <li>Nome Playlist</li>
-            <li>Nome Playlist</li>
-            <li>Nome Playlist</li>
-            <li>Nome Playlist</li>
-            <li>Nome Playlist</li>
-            <li>Nome Playlist</li>
-            <li>Nome Playlist</li>
-            <li>Nome Playlist</li>
+        <div class="sidebar__playlist">
+          <h2>Playlist</h2>
+          <a class="items-center" href="#"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+              <path d="M0,0v512h512V0H0z M384,283.429H283.429V384h-54.857V283.429H128v-54.857h100.571V128h54.857v100.571H384V283.429z" fill="currentColor" />
+            </svg><span>Crea Playlist</span></a>
+        </div>
+        <div class="sidebar__playlist__name">
+          <ul class="sidebar__playlist">
+            <li><a href="#">Nome Playlist</a></li>
+            <li><a href="#">Nome Playlist</a></li>
+            <li><a href="#">Nome Playlist</a></li>
+            <li><a href="#">Nome Playlist</a></li>
+            <li><a href="#">Nome Playlist</a></li>
+            <li><a href="#">Nome Playlist</a></li>
+            <li><a href="#">Nome Playlist</a></li>
           </ul>
-        </section>
-        <section class="main-nav-footer">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        </section>
+        </div>
+        <div class="sidebar__footer">
+          <div>
+            <a class="items-center" href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  x="0px" y="0px" viewBox="0 0 384.97 384.97" style="enable-background:new 0 0 384.97 384.97;"
+                xml:space="preserve">
+                <path
+                  d="M192.485,0C86.185,0,0,86.173,0,192.485c0,106.3,86.185,192.485,192.485,192.485    c106.312,0,192.485-86.185,192.485-192.485C384.97,86.173,298.797,0,192.485,0z M192.485,360.909    c-93.018,0-168.424-75.406-168.424-168.424S99.467,24.061,192.485,24.061s168.424,75.406,168.424,168.424    S285.503,360.909,192.485,360.909z"
+                  data-original="#000000" class="active-path" fill="currentColor" />
+                <path
+                  d="M268.095,209.243l-63.46,62.558V84.212c0-6.641-5.438-12.03-12.151-12.03c-6.713,0-12.151,5.39-12.151,12.03v187.589    l-63.46-62.558c-4.74-4.692-12.439-4.692-17.179,0c-4.74,4.704-4.74,12.319,0,17.011l84.2,82.997    c2.25,2.25,5.414,3.537,8.59,3.537c3.164,0,6.328-1.299,8.59-3.525l84.2-82.997c4.752-4.704,4.74-12.319,0-17.011    C280.535,204.551,272.835,204.551,268.095,209.243z"
+                  data-original="#000000" class="active-path" fill="currentColor" />
+              </svg>
+              <span>Installa app</span></a>
+          </div>
+        </div>
+        <div class="sidebar__footer sidebar__footer--user">
+          <div>
+            <a class="items-center" href="#"> <img src="img/io.jpg" alt="foto utente">
+              <span>Marco Carone</span></a>
+          </div>
+        </div>
       </section>
       <section class="main-content">
         <div class="call-to-action">
