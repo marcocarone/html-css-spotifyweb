@@ -556,6 +556,14 @@ body {
   .contenitore__box {
     flex-basis: calc(100% / 1);
   }
+
+  .content__nav__ul li {
+    flex-basis: calc(100% / 2);
+  }
+
+  .content__nav__a--active::after {
+    margin: 5px 30px;  
+}
 }
 
 @media screen and (min-width: 552px) and (max-width: 639px) {
