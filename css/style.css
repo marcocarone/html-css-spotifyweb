@@ -566,7 +566,7 @@ body {
   }
 }
 
-@media screen and (min-width: 552px) and (max-width: 639px) {
+@media screen and (min-width: 552px) and (max-width: 768px) {
   .xs-display-none {
     display: none;
   }
@@ -610,7 +610,7 @@ body {
   }
 }
 
-@media screen and (min-width: 639px) and (max-width: 878px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .md-display-none {
     display: none;
   }
@@ -624,7 +624,7 @@ body {
   }
 }
 
-@media screen and (min-width: 878px) {
+@media screen and (min-width: 1024px) {
   .lg-display-none {
     display: none;
   }
