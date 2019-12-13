@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/favicon.ico" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Spotify</title>
+</head>
+
+<body>
+  <!-- CONTAINER -->
+  <div class="container">
+    <!-- MAIN -->
+    <main class="main">
+      <section class="sidebar">
+        <div class="sidebar__logo__small">
+          <a class=" md-display-none lg-display-none" href="#"><img src="img/logo-small.svg" alt="Logo Spotify"></a>
+        </div>
+        <div class="sidebar__logo">
+          <a class="xs-display-none xxs-display-none" href="#"><img src="img/logo.svg" alt="Logo Spotify"></a>
+        </div>
+        <div class="sidebar__nav">
+          <nav>
+            <ul>
+              <li class="sidebar__nav__li sidebar__nav__li--active items-center"><a class="items-center" href="#"><svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M448 463.746h-149.333v-149.333h-85.334v149.333h-149.333v-315.428l192-111.746 192 110.984v316.19z" fill="currentColor" /></svg><span class="xs-display-none xxs-display-none transition">Home</span></a></li>
+              <li><a class="sidebar__nav__li items-center" href="#"><svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M349.714 347.937l93.714 109.969-16.254 13.969-93.969-109.969q-48.508 36.825-109.207 36.825-36.826 0-70.476-14.349t-57.905-38.603-38.603-57.905-14.349-70.476 14.349-70.476 38.603-57.905 57.905-38.603 70.476-14.349 70.476 14.349 57.905 38.603 38.603 57.905 14.349 70.476q0 37.841-14.73 71.619t-40.889 58.921zM224 377.397q43.428 0 80.254-21.461t58.286-58.286 21.461-80.254-21.461-80.254-58.286-58.285-80.254-21.46-80.254 21.46-58.285 58.285-21.46 80.254 21.46 80.254 58.285 58.286 80.254 21.461z"
+                      fill="currentColor" fill-rule="evenodd" /></svg><span class="xs-display-none xxs-display-none transition">Cerca</span></a></li>
+              <li><a class=" sidebar__nav__li items-center" href="#"><svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M291.301 81.778l166.349 373.587-19.301 8.635-166.349-373.587zM64 463.746v-384h21.334v384h-21.334zM192 463.746v-384h21.334v384h-21.334z" fill="currentColor" /></svg><span
+                    class="xs-display-none xxs-display-none transition">La tua
+                    libreria</span></a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="sidebar__playlist xs-display-none xxs-display-none">
+          <h2>Playlist</h2>
+          <a class="items-center" href="#"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+              <path d="M0,0v512h512V0H0z M384,283.429H283.429V384h-54.857V283.429H128v-54.857h100.571V128h54.857v100.571H384V283.429z" fill="currentColor" />
+            </svg><span class="transition">Crea Playlist</span></a>
+        </div>
+        <div class="sidebar__playlist__name">
+          <ul class="sidebar__playlist xs-display-none xxs-display-none">
+            <li><a class="transition" href="#">Nome Playlist</a></li>
+            <li><a class="transition" href="#">Nome Playlist</a></li>
+            <li><a class="transition" href="#">Nome Playlist</a></li>
+            <li><a class="transition" href="#">Nome Playlist</a></li>
+            <li><a class="transition" href="#">Nome Playlist</a></li>
+            <li><a class="transition" href="#">Nome Playlist</a></li>
+            <li><a class="transition" href="#">Nome Playlist</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__footer">
+          <div>
+            <a class="items-center" href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 384.97 384.97" style="enable-background:new 0 0 384.97 384.97;"
+                xml:space="preserve">
+                <path
+                  d="M192.485,0C86.185,0,0,86.173,0,192.485c0,106.3,86.185,192.485,192.485,192.485    c106.312,0,192.485-86.185,192.485-192.485C384.97,86.173,298.797,0,192.485,0z M192.485,360.909    c-93.018,0-168.424-75.406-168.424-168.424S99.467,24.061,192.485,24.061s168.424,75.406,168.424,168.424    S285.503,360.909,192.485,360.909z"
+                  data-original="#000000" class="active-path" fill="currentColor" />
+                <path
+                  d="M268.095,209.243l-63.46,62.558V84.212c0-6.641-5.438-12.03-12.151-12.03c-6.713,0-12.151,5.39-12.151,12.03v187.589    l-63.46-62.558c-4.74-4.692-12.439-4.692-17.179,0c-4.74,4.704-4.74,12.319,0,17.011l84.2,82.997    c2.25,2.25,5.414,3.537,8.59,3.537c3.164,0,6.328-1.299,8.59-3.525l84.2-82.997c4.752-4.704,4.74-12.319,0-17.011    C280.535,204.551,272.835,204.551,268.095,209.243z"
+                  data-original="#000000" class="active-path" fill="currentColor" />
+              </svg>
+              <span class="xs-display-none xxs-display-none transition">Installa app</span></a>
+          </div>
+        </div>
+        <div class="sidebar__footer sidebar__footer--user">
+          <div>
+            <a class="items-center" href="#"> <img src="img/io.jpg" alt="foto utente">
+              <span class="xs-display-none xxs-display-none transition">Marco Carone</span></a>
+          </div>
+        </div>
+      </section>
+      <section class="content">
+        <div class="content__top-bar">
+          <a class="content__top-bar__btn" href="">Effettua l'upgrade</a>
+        </div>
+        <div class="content__nav">
+          <nav>
+            <ul class="content__nav__ul ">
+              <li><a href="#" class="content__nav__a content__nav__a--active transition">In evidenza</a></li>
+              <li><a href="#" class="content__nav__a transition">Podcast</a></li>
+              <li><a href="#" class="content__nav__a transition">Classifiche</a></li>
+              <li><a href="#" class="content__nav__a transition">Generi e Mood</a></li>
+              <li><a href="#" class="content__nav__a transition">Nuove Uscite</a></li>
+              <li><a href="#" class="content__nav__a transition">Scopri</a></li>
+            </ul>
+          </nav>
+        </div>
+        <section class="recently">
+          <div class="recently__h2">
+            <h2>Recently Played</h2>
+          </div>
+          <div class="recently__box">
+            <div class="contenitore__box">
+              <div class="box">
+                <img src="img/metal_lifting.jpg" alt="metal lifting">
+                <div class="overlay">
+                  <div class="overlay__content">
+                    <h2><i class="far fa-play-circle"></i></h2>
+                  </div>
+                </div>
+              </div>
+              <h3>Heavy Metal</h3>
+              <h4>Subtitle</h4>
+            </div>
+            <div class="contenitore__box">
+              <div class="box">
+                <img src="img/stranger.jpeg" alt="stranger">
+                <div class="overlay">
+                  <div class="overlay__content">
+                    <h2><i class="far fa-play-circle"></i></h2>
+                  </div>
+                </div>
+              </div>
+              <h3>Stranger Things, Vol. 1</h3>
+              <h4>Kely Dixon</h4>
+            </div>
+            <div class="contenitore__box xs-display-none xxs-display-none">
+              <div class="box">
+                <img src="img/aquietplace.jpeg" alt="aquietplace">
+                <div class="overlay">
+                  <div class="overlay__content">
+                    <h2><i class="far fa-play-circle"></i></h2>
+                  </div>
+                </div>
+              </div>
+              <h3>A quiet place</h3>
+              <h4>Subtitle</h4>
+            </div>
+            <div class="contenitore__box xs-display-none xxs-display-none">
+              <div class="box">
+                <img src="img/split.jpeg" alt="split">
+                <div class="overlay">
+                  <div class="overlay__content">
+                    <h2><i class="far fa-play-circle"></i></h2>
+                  </div>
+                </div>
+              </div>
+              <h3>Split</h3>
+              <h4>Subtitle</h4>
+            </div>
+            <div class="contenitore__box md-display-none xs-display-none xxs-display-none">
+              <div class="box">
+                <img src="img/cure.jpeg" alt="cure">
+                <div class="overlay">
+                  <div class="overlay__content">
+                    <h2><i class="far fa-play-circle"></i></h2>
+                  </div>
+                </div>
+              </div>
+              <h3>Acure for wellness</h3>
+              <h4>Subtitle</h4>
+            </div>
+            <div class="contenitore__box md-display-none xs-display-none xxs-display-none">
+              <div class="box">
+                <img src="img/sinister.jpeg" alt="sinister">
+                <div class="overlay">
+                  <div class="overlay__content">
+                    <h2><i class="far fa-play-circle"></i></h2>
+                  </div>
+                </div>
+              </div>
+              <h3>Sinister</h3>
+              <h4>Subtitle</h4>
+            </div>
+          </div>
+        </section>
+        <!-- SEZIONE CREATO PER MARCO CARONE -->
+        <section class="recently">
+          <div class="recently__h2">
+            <h2>Creato per Marco Carone</h2>
+            <p>Più ascolti, più saranno accurati i suggerimenti.</p>
+          </div>
+          <div class="recently__box">
+            <div class="contenitore__box">
+              <div class="box">
+                <img src="img/radar.jpeg" alt="radar">
+                <div class="overlay">
+                  <div class="overlay__content">
+                    <h2><i class="far fa-play-circle"></i></h2>
+                  </div>
+                </div>
+              </div>
+              <h3>Release Radar</h3>
+            </div>
+            <div class="contenitore__box">
+              <div class="box">
+                <img src="img/mixdaily.jpeg" alt="mixdaily">
+                <div class="overlay">
+                  <div class="overlay__content">
+                    <h2><i class="far fa-play-circle"></i></h2>
+                  </div>
+                </div>
+              </div>
+              <h3>Daily Mix 1</h3>
+            </div>
+          </div>
+        </section>
+
+        <section class="recently">
+          <div class="recently__h2">
+            <h2>Artisti più popolari</h2>
+            <p>Più ascolti, più saranno accurati i suggerimenti.</p>
+          </div>
+          <div class="recently__box">
+            <div class="contenitore__box">
+              <div class="box">
+                <img class="box--circle" src="img/youg.jpeg" alt="youg">
+                <div class="overlay box--circle">
+                  <div class="overlay__content">
+                    <h2><i class="far fa-play-circle"></i></h2>
+                  </div>
+                </div>
+              </div>
+              <h3>Lana Del Ray</h3>
+            </div>
+            <div class="contenitore__box">
+              <div class="box">
+                <img class="box--circle" src="img/einaudi.jpeg" alt="Einaudi">
+                <div class="overlay box--circle">
+                  <div class="overlay__content">
+                    <h2><i class="far fa-play-circle"></i></h2>
+                  </div>
+                </div>
+              </div>
+              <h3>Einaudi</h3>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+    <!-- /MAIN -->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <section class="footer__left">
+        <img class="xxs-display-none" src="img/sinister.jpeg" alt="Icona album in riproduzione">
+        <div class="xxs-display-none">
+          <a class="footer__left__title" href="#">
+            <h4>Sinister</h4>
+          </a>
+          <a class="footer__left__title footer__left__title--grey" href="#">
+            <h5>Brano nome</h5>
+          </a>
+        </div>
+        <div class="footer__left__icon">
+          <a class="transition" href="#"><i class="far fa-heart"></i></a>
+          <a href="#"><i class="far fa-folder"></i></a>
+        </div>
+      </section>
+      <section class="footer__center">
+        <div class="footer__center__top">
+          <a class="transition" href="#"><i class="fas fa-random"></i></a>
+          <a class="transition" href="#"><i class="fas fa-step-backward"></i></a>
+          <a class="transition" href="#"><i class="far fa-play-circle play"></i></a>
+          <a class="transition" href="#"><i class="fas fa-step-forward"></i></a>
+          <a class="transition" href="#"><i class="fas fa-redo"></i></a>
+        </div>
+        <div class="footer__center__bottom">
+          <span>0.25</span>
+          <div class="time__bar">
+            <div class="time__bar--active transition"></div>
+            <div class="ball transition"></div>
+          </div>
+          <span>4.35</span>
+        </div>
+      </section>
+      <section class="footer__right">
+        <a class="transition" href="#"><i class="fas fa-bars"></i></a>
+        <a class="transition" href="#"><i class="fas fa-desktop"></i></a>
+        <a class="transition" href="#"><i class="fas fa-volume-up"></i></a>
+        <div class="volume-bar xxs-display-none">
+          <div class="volume-bar--active transition"></div>
+          <div class="volume-bar__ball transition"></div>
+        </div>
+      </section>
+      <!-- RISOLVE IL BUG DI CHROME PER LE TRANSIZIONI -->
+      <script> </script>
+    </footer>
+    <!-- /FOOTER -->
+
+  </div>
+  <!-- /CONTAINER -->
+
+</body>
+
+</html>
