@@ -288,6 +288,9 @@ body {
   width: 100%;
 }
 
+.box--circle  {
+  border-radius: 50%;
+}
 .overlay__content {
   position: absolute;
   top: 50%;
