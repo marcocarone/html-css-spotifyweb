@@ -280,6 +280,7 @@ body {
 }
 
 .box img {
+  display: block;
   width: 100%;
 }
 
